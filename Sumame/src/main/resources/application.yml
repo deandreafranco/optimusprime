@@ -1,0 +1,22 @@
+spring:
+  mail:
+  datasource: 
+    url: jdbc:mysql://localhost:3306/portaltrabajo?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect  
+        ddl-auto: update   
+  thymeleaf:  
+    cache: false 
+  main:
+    allow-bean-definition-overriding: true
+server:
+  error:
+    whitelabel:
+      enabled: false
+
