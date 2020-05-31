@@ -1,0 +1,20 @@
+progress {
+  background-color: #e3e3e3;
+  border: 5px;
+  height: 18px;
+  border-radius: 9px;
+}
+/* Safari Chrome */
+progress::-webkit-progress-bar {
+	background-color: #f3f3f3;
+	border-radius: 9px;
+}
+progress::-webkit-progress-value {
+	background: #cb5700;
+	border-radius: 9px;
+}
+/* firefox */
+progress::-moz-progress-bar {
+	background: #cb5700;
+	border-radius: 9px;
+}
